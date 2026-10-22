@@ -2,9 +2,31 @@ imgae er config urls.py te kora lage
 django static files theke 
 
 
-model bananor por admin.py te register korbo 
+model bananor por
+    image = models.ImageField(upload_to='media/images/', null=True, blank=True)
+
+
+ admin.py te register korbo 
 from recap_app.models import *
 admin.site.register(StudentModel)
 
 
 abar makemigrations ar migrate 
+
+html mastering:
+
+base.html: starter template bootstrap 5 theke
+
+nav.html: shudhu bg color bad disi 
+
+
+
+
+
+
+erpor views.py te dhukhbo :
+
+
+
+
+erpor app urls

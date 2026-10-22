@@ -1,0 +1,10 @@
+imgae er config urls.py te kora lage 
+django static files theke 
+
+
+model bananor por admin.py te register korbo 
+from recap_app.models import *
+admin.site.register(StudentModel)
+
+
+abar makemigrations ar migrate 

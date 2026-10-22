@@ -20,7 +20,7 @@ base.html: starter template bootstrap 5 theke
 nav.html: shudhu bg color bad disi 
 
 
-
+https://getbootstrap.com/docs/5.0/forms/select/#default
 
 
 

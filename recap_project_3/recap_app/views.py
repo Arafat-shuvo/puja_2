@@ -11,3 +11,9 @@ def student_list(request):
     }
 
     return render(request, 'student-list.html', context)
+
+
+
+def student_create(request):
+    
+    return render(request, 'add-student.html')

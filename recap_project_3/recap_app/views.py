@@ -3,4 +3,11 @@ from recap_app.models import *
 
 # Create your views here.
 def student_list(request):
-    return render(request, 'student-list.html')
+    student_data = StudentModel.objects.all()
+
+
+    context = {
+        'student_data': student_data
+    }
+
+    return render(request, 'student-list.html', context)

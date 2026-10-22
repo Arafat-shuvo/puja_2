@@ -30,3 +30,8 @@ erpor views.py te dhukhbo :
 
 
 erpor app urls
+
+
+erpor views e multiple data read all filter
+prothom e backend theke pathabo thn display korabo
+
